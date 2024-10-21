@@ -27,4 +27,5 @@ jobs:
           xygeni_url: https://api.xygeni.io
           token: ${{ secrets.XY_TOKEN_PRO_TRIAL }}
           gh_token: ${{ secrets.GH_PAT }}
-          command: scan --run="secrets" --secrets-mode=history 
+          command: scan --run="secrets" --no-conf-download
+          #--secrets-mode=history 
