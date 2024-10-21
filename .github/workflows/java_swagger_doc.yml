@@ -4,7 +4,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ masterxx ]
   pull_request:
     branches: [ master ]
 permissions:
