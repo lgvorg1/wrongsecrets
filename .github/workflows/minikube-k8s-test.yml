@@ -6,7 +6,7 @@ name: Test minikube script (k8s)
 on:
   push:
     branches:
-      - master
+      - masterxx
   pull_request:
     branches: [master]
   workflow_dispatch:
