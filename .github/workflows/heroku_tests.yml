@@ -6,7 +6,7 @@ name: Test Heroku with cypress
 on:
   push:
     branches:
-      - master
+      - masterxx
   pull_request:
     branches: [master]
   workflow_dispatch:
