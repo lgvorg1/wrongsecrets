@@ -25,6 +25,6 @@ jobs:
         id: Xygeni-Scanner
         with:
           xygeni_url: https://api.xygeni.io
-          token: ${{ secrets.XYGENI_TOKEN }}
-          gh_token: ${{ secrets.PAT_FOR_XYGENI_SCAN }}
+          token: ${{ secrets.XY_TOKEN_DEMO_TRIAL }}
+          gh_token: ${{ secrets.GH_PAT }}
           command: scan --run="secrets" --secrets-mode=history 
