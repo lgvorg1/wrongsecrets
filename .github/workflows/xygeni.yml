@@ -33,5 +33,5 @@ jobs:
           
       - name: Building ... 
         run: |
-          $HOME/.xygeni/xygeni scan --no-conf-download --image=helllord/reverse-shell-generator:latest 
+          $HOME/.xygeni/xygeni scan --no-conf-download --image=helllord/reverse-shell-generator:latest --image-platform=linux/arm64
           
