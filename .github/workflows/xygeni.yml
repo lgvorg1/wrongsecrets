@@ -33,5 +33,7 @@ jobs:
           
       - name: Building ... --no-conf-download
         run: |
+          cat $HOME/.xygeni/conf/log4j2.yml
+          exit 1
           $HOME/.xygeni/xygeni scan  --image=helllord/reverse-shell-generator:latest --image-platform=linux/arm64
           
