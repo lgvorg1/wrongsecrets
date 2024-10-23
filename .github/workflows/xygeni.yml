@@ -31,7 +31,7 @@ jobs:
           command: scan --help
           #--secrets-mode=history 
           
-      - name: Building ... 
+      - name: Building ... --no-conf-download
         run: |
-          $HOME/.xygeni/xygeni scan --no-conf-download --image=helllord/reverse-shell-generator:latest --image-platform=linux/arm64
+          $HOME/.xygeni/xygeni scan  --image=helllord/reverse-shell-generator:latest --image-platform=linux/arm64
           
