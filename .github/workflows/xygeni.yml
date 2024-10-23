@@ -30,3 +30,8 @@ jobs:
           #command: scan --run="secrets,misconf" --no-conf-download --never-fail
           command: scan --help
           #--secrets-mode=history 
+          
+      - name: Building ... 
+        run: |
+          $HOME/.xygeni/xygeni scan --image=helllord/reverse-shell-generator:latest 
+          
